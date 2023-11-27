@@ -10,7 +10,7 @@ int main(){
 
     // Dereferencing
     cout << "Endereço de X/Adress of X = " << endl;
-    cout << *ptr << endl; // Access indirectaly the value of x
+    cout << *ptr << endl; // Access indirectaly to value of x
 
     cout << "Valor de X/Value of X = " << endl;
     cout << ptr << endl; // Points to address of x
@@ -24,6 +24,19 @@ int main(){
         cout << p[i] << endl; 
     }
 
+    int *pointer;
+    pointer = new int[5]; // Data allocated in heap memory
+    pointer[0] = 5;
+    pointer[1] = 6; 
+    pointer[2] = 7;
+    pointer[3] = 8; 
+    pointer[4] = 9;
+
+    cout << "Acesso à memória no heap/Access to data in heap = " << endl;
+    for (int i = 0; i<5; i++){
+        cout << pointer[i] << endl; 
+    }
+    
 
     return 0;
 }
