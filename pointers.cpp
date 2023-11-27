@@ -10,7 +10,7 @@ int main(){
 
     // Dereferencing
     cout << "Endereço de X/Adress of X = " << endl;
-    cout << *ptr << endl; // Access indirectaly to value of x
+    cout << *ptr << endl; // Access indirectaly the value of x
 
     cout << "Valor de X/Value of X = " << endl;
     cout << ptr << endl; // Points to address of x
