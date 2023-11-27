@@ -37,6 +37,7 @@ int main(){
         cout << pointer[i] << endl; 
     }
     
+    delete[] pointer; // Liberating memory
 
     return 0;
 }
